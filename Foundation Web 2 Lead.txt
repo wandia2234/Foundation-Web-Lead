@@ -1,0 +1,52 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Dfk000003gNL3" method="POST">
+
+ <!-- Hidden Fields -->
+<input type=hidden name="oid" value="00Dfk000003gNL3">
+<input type=hidden name="retURL" value="https://www.carsontahoe.com/">
+<input type="hidden" name="00NVu00000LEb3d" value="1" >
+
+
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required/><br>
+
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="email" required/><br><br>
+
+
+
+<!-- Area of Interest (Checkboxes) -->
+  <label>Area of Interest:</label>
+<p><i>(Check All That Apply)</i></p>
+<br>
+
+  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Making a Donation"> Making a Donation</label><br>
+  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Planned Giving / Legacy Giving"> Planned Giving / Legacy Giving</label><br>
+  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Corporate Partnership"> Corporate Partnership</label><br>
+  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Sponsorship Opportunities"> Sponsorship Opportunities</label><br>
+  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Volunteer Opportunities"> Volunteer Opportunities</label><br>
+  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Community Programs"> Community Programs</label><br>
+  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Media Inquiry"> Media Inquiry</label><br><br>
+
+
+<label>
+    <input type="checkbox" name="00Nfk000002LKaT" value="1" required>
+   Consent
+  </label>
+ 
+  <!-- Consent Text -->
+  <p style="margin-top:8px;">
+    By submitting this form, you consent to receive communications from Carson Tahoe Health Foundation regarding fundraising initiatives, events, volunteer opportunities, and related activities. You may opt out at any time by using the unsubscribe link provided in communications. Please review our 
+    <a href="https://www.carsontahoe.com/communications-terms-and-conditions.html" style="text-decoration:none;" target="_blank">Terms and Conditions</a> 
+    and 
+    <a href="https://www.carsontahoe.com/communications-privacy-policy.html" style="text-decoration:none;" target="_blank">Privacy Policy</a> 
+    for more information.
+  </p>
+ 
+
+<input type="submit" value="Stay Connected">
+
+</form>
