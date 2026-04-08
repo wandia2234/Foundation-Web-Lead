@@ -1,3 +1,9 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
 <!--  ----------------------------------------------------------------------  -->
@@ -23,29 +29,32 @@
 <!--  value="admin+carsontahoe@offprem.tech">                                 -->
 <!--  ----------------------------------------------------------------------  -->
 
-<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+<label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 
-<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+<label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
 
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+<label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-<label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+<label for="city">City</label><input id="city" maxlength="40" name="city" size="20" type="text" /><br>
 
-<label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+<label for="state">State/Province</label><input id="state" maxlength="20" name="state" size="20" type="text" /><br>
 
-<!-- Area of Interest (multi-select) -->
-Area of Interest:<select  id="00NVu00000LB7Wj" multiple="multiple" name="00NVu00000LB7Wj" title="Area of Interest"><option value="Making a Donation">Making a Donation</option>
-<option value="Planned Giving / Legacy Giving">Planned Giving / Legacy Giving</option>
-<option value="Corporate Partnership">Corporate Partnership</option>
-<option value="Sponsorship Opportunities">Sponsorship Opportunities</option>
-<option value="Volunteer Opportunities">Volunteer Opportunities</option>
-<option value="Community Programs">Community Programs</option>
-<option value="Media Inquiry">Media Inquiry</option>
-</select><br>
+<!-- Area of Interest as checkboxes (multi-select picklist compatible) -->
+<label>Area of Interest:</label><br>
+<input type="checkbox" name="00NVu00000LB7Wj" value="Making a Donation"> Making a Donation<br>
+<input type="checkbox" name="00NVu00000LB7Wj" value="Planned Giving / Legacy Giving"> Planned Giving / Legacy Giving<br>
+<input type="checkbox" name="00NVu00000LB7Wj" value="Corporate Partnership"> Corporate Partnership<br>
+<input type="checkbox" name="00NVu00000LB7Wj" value="Sponsorship Opportunities"> Sponsorship Opportunities<br>
+<input type="checkbox" name="00NVu00000LB7Wj" value="Volunteer Opportunities"> Volunteer Opportunities<br>
+<input type="checkbox" name="00NVu00000LB7Wj" value="Community Programs"> Community Programs<br>
+<input type="checkbox" name="00NVu00000LB7Wj" value="Media Inquiry"> Media Inquiry<br><br>
 
 <!-- Consent / Opt-In Checkbox -->
-Consent / Opt-In Checkbox:<input  id="00Nfk000002LKaT" name="00Nfk000002LKaT" type="checkbox" value="1" /><br>
+Consent / Opt-In Checkbox:<input id="00Nfk000002LKaT" name="00Nfk000002LKaT" type="checkbox" value="1" /><br>
 
-<input type="submit" name="submit">
+<!-- Consent sentence -->
+<p style="font-size: 0.9em; color: #555;">By submitting this form, you consent to receive communications from Carson Tahoe Health Foundation regarding fundraising initiatives, events, volunteer opportunities, and related activities. You may opt out at any time by using the unsubscribe link provided in communications. Please review our Terms and Conditions and Privacy Policy for more information.</p>
+
+<input type="submit" name="submit" value="Stay connected">
 
 </form>
