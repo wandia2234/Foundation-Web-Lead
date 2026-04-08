@@ -1,52 +1,51 @@
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: Please add the following <FORM> element to your page.             -->
 <!--  ----------------------------------------------------------------------  -->
 
-<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Dfk000003gNL3" method="POST">
+<form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Ddq000009dnen" method="POST">
 
- <!-- Hidden Fields -->
-<input type=hidden name="oid" value="00Dfk000003gNL3">
-<input type=hidden name="retURL" value="https://www.carsontahoe.com/">
-<input type="hidden" name="00NVu00000LEb3d" value="1" >
+<input type=hidden name="oid" value="00Ddq000009dnen">
+<input type=hidden name="retURL" value="https://www.carsontahoe.com/cth-foundation.html">
 
+<!-- Hidden Campaign ID (locked to your specific campaign) -->
+<input type="hidden" name="Campaign_ID" value="701dq00000qRAgTAAW">
 
-<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required/><br>
+<!-- Hidden Campaign Member Status set to "Responded" -->
+<input type="hidden" name="Campaign_Member_Status" value="Responded">
 
-<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required /><br>
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="admin+carsontahoe@offprem.tech">                                 -->
+<!--  ----------------------------------------------------------------------  -->
 
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="email" required/><br><br>
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
 
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-<!-- Area of Interest (Checkboxes) -->
-  <label>Area of Interest:</label>
-<p><i>(Check All That Apply)</i></p>
-<br>
+<label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
 
-  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Making a Donation"> Making a Donation</label><br>
-  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Planned Giving / Legacy Giving"> Planned Giving / Legacy Giving</label><br>
-  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Corporate Partnership"> Corporate Partnership</label><br>
-  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Sponsorship Opportunities"> Sponsorship Opportunities</label><br>
-  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Volunteer Opportunities"> Volunteer Opportunities</label><br>
-  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Community Programs"> Community Programs</label><br>
-  <label><input type="checkbox" name="00NVu00000LB7Wj" value="Media Inquiry"> Media Inquiry</label><br><br>
+<label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
 
+<!-- Area of Interest (multi-select) -->
+Area of Interest:<select  id="00NVu00000LB7Wj" multiple="multiple" name="00NVu00000LB7Wj" title="Area of Interest"><option value="Making a Donation">Making a Donation</option>
+<option value="Planned Giving / Legacy Giving">Planned Giving / Legacy Giving</option>
+<option value="Corporate Partnership">Corporate Partnership</option>
+<option value="Sponsorship Opportunities">Sponsorship Opportunities</option>
+<option value="Volunteer Opportunities">Volunteer Opportunities</option>
+<option value="Community Programs">Community Programs</option>
+<option value="Media Inquiry">Media Inquiry</option>
+</select><br>
 
-<label>
-    <input type="checkbox" name="00Nfk000002LKaT" value="1" required>
-   Consent
-  </label>
- 
-  <!-- Consent Text -->
-  <p style="margin-top:8px;">
-    By submitting this form, you consent to receive communications from Carson Tahoe Health Foundation regarding fundraising initiatives, events, volunteer opportunities, and related activities. You may opt out at any time by using the unsubscribe link provided in communications. Please review our 
-    <a href="https://www.carsontahoe.com/communications-terms-and-conditions.html" style="text-decoration:none;" target="_blank">Terms and Conditions</a> 
-    and 
-    <a href="https://www.carsontahoe.com/communications-privacy-policy.html" style="text-decoration:none;" target="_blank">Privacy Policy</a> 
-    for more information.
-  </p>
- 
+<!-- Consent / Opt-In Checkbox -->
+Consent / Opt-In Checkbox:<input  id="00Nfk000002LKaT" name="00Nfk000002LKaT" type="checkbox" value="1" /><br>
 
-<input type="submit" value="Stay Connected">
+<input type="submit" name="submit">
 
 </form>
